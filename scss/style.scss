@@ -16,6 +16,7 @@
     ;
     min-height: 100vh;
     @include xs {
+    margin: 0;
     grid: 
     "header" auto
     "main" auto 
@@ -238,6 +239,9 @@ footer {
             line-height: 2rem;
             &::placeholder {
                 color: var(--text);
+            }
+            @include xs {
+                min-width: 100px;
             }
         }
     }

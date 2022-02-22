@@ -86,6 +86,7 @@ img {
 }
 @media (max-width: 480px) {
   .grid-container {
+    margin: 0;
     grid: "header" auto "main" auto "picture" auto "aside" auto "footer" auto/100%;
   }
 }
@@ -308,6 +309,11 @@ footer form input {
 }
 footer form input::placeholder {
   color: var(--text);
+}
+@media (max-width: 480px) {
+  footer form input {
+    min-width: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
