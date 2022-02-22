@@ -84,10 +84,11 @@ img {
   grid-template-columns: 35rem auto;
   grid-auto-rows: auto 1fr auto;
   grid-template-areas: "picture header" "aside main" "footer footer";
+  min-height: 100vh;
 }
 @media (max-width: 480px) {
   .grid-container {
-    grid-template-columns: auto;
+    grid-template-columns: 450px;
     grid-auto-rows: auto;
     grid-template-areas: "header" "main" "picture" "aside" "footer";
   }

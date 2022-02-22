@@ -15,9 +15,9 @@
     "aside main"
     "footer footer"
     ;
-
+    min-height: 100vh;
     @include xs {
-    grid-template-columns: auto;
+    grid-template-columns: 450px;
     grid-auto-rows: auto;
     grid-template-areas: 
     "header"
