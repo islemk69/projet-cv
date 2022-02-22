@@ -81,7 +81,7 @@ img {
 /* Large desktop */
 .grid-container {
   display: grid;
-  grid-template-columns: 350px auto;
+  grid-template-columns: 35rem auto;
   grid-auto-rows: auto 1fr auto;
   grid-template-areas: "picture header" "aside main" "footer footer";
   min-height: 100vh;
