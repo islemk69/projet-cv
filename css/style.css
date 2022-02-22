@@ -86,7 +86,7 @@ img {
 }
 @media (max-width: 480px) {
   .grid-container {
-    grid: "header" auto "main" auto "picture" auto "aside" auto "footer" auto/auto;
+    grid: "header" auto "main" auto "picture" auto "aside" auto "footer" auto/100%;
   }
 }
 
