@@ -81,16 +81,12 @@ img {
 /* Large desktop */
 .grid-container {
   display: grid;
-  grid-template-columns: 35rem auto;
-  grid-auto-rows: auto 1fr auto;
-  grid-template-areas: "picture header" "aside main" "footer footer";
+  grid: "picture header" auto "aside main" 1fr "footer footer" auto/350px auto;
   min-height: 100vh;
 }
 @media (max-width: 480px) {
   .grid-container {
-    grid-template-columns: 450px;
-    grid-auto-rows: auto;
-    grid-template-areas: "header" "main" "picture" "aside" "footer";
+    grid: "header" auto "main" auto "picture" auto "aside" auto "footer" auto/auto;
   }
 }
 
